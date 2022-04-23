@@ -1,0 +1,346 @@
+.road-map-bg{
+        background-image: url('../../../../assets/bg-imgae/roadmap-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 300px;
+}
+.road-map{
+    max-width: 900px;
+    max-height: 100%;
+    margin: 100px auto;
+}
+.road-map h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.road-map h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    background: linear-gradient(106.22deg, #0085FF -41.18%, #C15CFF 81.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 10px;
+    margin-bottom: 190px;
+}
+
+/* .road-map-view{
+        margin-top: 210px;
+        margin-bottom: 580px;
+        margin-left: 120px;
+        background-image: url('../../../../assets/border-img/border-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position:center;
+} */
+.border-wrap{
+    background-image: url('../../../../assets/border-img/border-1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:bottom center ;
+    width: 770px;
+    height: 453.19px;
+    margin: 0 auto;
+}
+/********************************* style for card ***********************************/
+
+
+.card-1 {
+    margin-left: 346px;
+    margin-top: -50px;
+}
+
+.card-title{
+    position: relative;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -60px;
+    margin-left: -50px;
+    margin-bottom: 15px;
+}
+
+.card-1 .card-title::before{
+    content:'';
+    height: 2px;
+    width: 53%;
+    margin-top:30px;
+    position: absolute;
+    background: #3772FF;
+    border-radius: 4px;
+}
+
+.card-2 .card-title::before{
+    content:'';
+    height: 2px;
+    width: 42%;
+    margin-top:30px;
+    position: absolute;
+    background: #3772FF;
+    border-radius: 4px;
+}
+
+.card-3{
+    margin-top: 470px;
+    margin-left: -90px;
+}
+.card-3 .card-title::before{
+    content:'';
+    height: 2px;
+    width: 23%;
+    margin-top:30px;
+    position: absolute;
+    background: #3772FF;
+    border-radius: 4px;
+}
+
+
+
+.card-1>h5{
+    margin-left: -50px;
+}
+.card-2>h5{
+    margin-left : -200px;
+}
+.card-3>h5{
+    margin-left : -225px;
+}
+
+
+
+.card-2 img{
+    margin-left : -130px;
+}
+.card-3 img{
+    margin-left : -140px;
+}
+
+.card-pre-1{
+    width: 184px;
+    padding: 36px 17px 16px 24px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #E0E0E0;
+    margin-left: -60px;
+    margin-top: -25px;
+}
+
+
+
+.card-2 {
+    margin-top: 165px;
+    margin-left: 321px;
+}
+
+.card-pre-2{
+    width: 223px;
+    padding: 36px 17px 16px 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    
+    /* text phụ */
+    
+    color: #E0E0E0;
+    margin-left: -200px;
+    margin-top: -35px;
+}
+
+.card-pre-3 {
+    width: 370px;
+    padding: 33px 16px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #E0E0E0;
+    margin-left: -200px;
+    margin-top: -25px;
+}
+
+.card-4 .card-title-4::before {
+    content: '';
+    height: 2px;
+    width: 58px;
+    margin-top: 30px;
+    position: absolute;
+    background: #3772FF;
+    border-radius: 4px;
+}
+.card-pre-4 {
+    width: 184px;
+    /* padding: 33px 16px; */
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #E0E0E0;
+    margin-left: 180px;
+    margin-top: 0;
+}
+
+.card-4>h5 {
+    margin-left: 160px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card-4 img {
+    margin-left: 240px;
+}
+.card-4 {
+    margin-top: -460px;
+    margin-left: -225px;
+}
+
+
+
+
+
+
+.card-5 .card-title-5::before {
+    content: '';
+    height: 2px;
+    width: 73px;
+    margin-top: 30px;
+    position: absolute;
+    background: #3772FF;
+    border-radius: 4px;
+}
+
+.card-pre-5 {
+    width: 226px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #E0E0E0;
+    margin-left: 120px;
+    margin-top: 0px;
+}
+
+.card-5>h5 {
+        margin-left: 155px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card-5 img {
+    margin-left: 240px;
+}
+.card-5{
+    margin-top: -168px;
+    margin-left: -260px;
+}
+/********************************* style for card  **********************************/
+
+
+
+@media (min-width: 250px) and (max-width: 600px) {
+
+
+    .road-map-bg {
+        background-image: url('../../../../assets/bg-imgae/roadmap-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .road-map {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+    }
+    
+    .road-map h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        margin-top: 30px;
+        font-size: 26px;
+        line-height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+    }
+    
+    .road-map h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 72px;
+        text-align: center;
+        background: linear-gradient(106.22deg, #0085FF -41.18%, #C15CFF 81.41%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    .road-map-view {
+        margin-top: 210px;
+        margin-bottom: 580px;
+        margin-left: 120px;
+        background-image: url('../../../../assets/border-img/border-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    
+    .border-wrap {
+        background-image: url('../../../../assets/border-img/border-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom center;
+        width: 770px;
+        height: 453.19px;
+        margin: 0 auto;
+    }
+}
